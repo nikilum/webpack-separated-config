@@ -1,0 +1,16 @@
+// This file will be added only to the page that has the same name like this file
+// Example: default.scss will be added to default.pug, file.scss will be added to file.pug
+// You can import here scss files that will be used on page with the same name as the name of this file
+
+@import '../templates/template';
+
+body {
+  background: $dark;
+  display: flex;
+  grid-column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  color: $gray-600;
+  font-size: 40px;
+  font-weight: 700;
+}

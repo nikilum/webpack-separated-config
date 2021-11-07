@@ -1,0 +1,11 @@
+// Template file, you can name it whatever you want,
+// without importing it into the page file, it will not be added anywhere
+// As example, you can see import of this file in /src/scss/pages/default.scss
+
+.cool-button {
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  background: $gray-600;
+  color: $gray-100;
+}
